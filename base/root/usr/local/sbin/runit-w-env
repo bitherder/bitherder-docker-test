@@ -1,0 +1,3 @@
+#!/bin/bash
+export > /tmp/boot-env
+exec /usr/sbin/runsvdir-start
