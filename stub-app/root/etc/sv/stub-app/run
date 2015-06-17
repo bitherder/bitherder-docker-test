@@ -1,0 +1,5 @@
+#!/bin/bash
+exec 2>&1
+source /tmp/boot-env
+cd /opt/stub-app
+exec bundle exec thin start

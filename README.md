@@ -8,5 +8,5 @@ Just a simple exploration of using multiple Docker images/containers
 * demonstrate the environment passed to docker instance is received by app
 * app not running as root
 * some sort of external logging
-* Dockerfile part of project
+* Dockerfile part of application code
 

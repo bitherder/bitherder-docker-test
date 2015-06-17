@@ -9,7 +9,7 @@ ADD root /
 RUN ln -s /etc/sv/ssh /etc/service \
     && addgroup --system logger \
     && adduser --system --no-create-home --disabled-password --disabled-login --ingroup logger logger \
-    && chown logger:logger /var/log/ssh
+    && chown -R logger:logger /var/log
 
 ENTRYPOINT ["/usr/local/sbin/runit-w-env"]
 

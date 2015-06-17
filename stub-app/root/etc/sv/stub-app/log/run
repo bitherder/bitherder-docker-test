@@ -1,0 +1,6 @@
+#!/bin/bash
+exec 2>&1
+source /tmp/boot-env
+service_dir=$(cd $(dirname ${BASH_SOURCE[0]})/..; pwd)
+cd $service_dir
+/usr/bin/chpst -u logger /usr/bin/svlogd -tt /var/log/stub-app
