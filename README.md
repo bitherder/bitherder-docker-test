@@ -10,3 +10,7 @@ Just a simple exploration of using multiple Docker images/containers
 * some sort of external logging
 * Dockerfile part of application code
 
+### stretch goals
+
+* IPv6 addresses
+
