@@ -1,4 +1,4 @@
-FROM ruby:2.2
+FROM bitherder/ruby:2.2
 
 MAINTAINER Larry Baltz <larry@baltz.org>
 

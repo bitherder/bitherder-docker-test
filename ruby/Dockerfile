@@ -1,4 +1,4 @@
-FROM base
+FROM bitherder/base:latest
 
 MAINTAINER Larry Baltz <larry@baltz.org>
 
