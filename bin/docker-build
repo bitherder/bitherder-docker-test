@@ -1,0 +1,3 @@
+#!/bin/bash
+
+base/bin/docker-build && ruby/bin/docker-build && stub-app/bin/docker-build
